@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cursor{
+    cursor: pointer;
+}
+body{
+    background-color: aqua;
+}
+.main{
+    height: auto;
+    width: 40%;
+    border: 3px solid black;
+    margin: auto;
+}
+.head{
+    background-color: burlywood;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 60px;
+}
+.design{
+    border: 4px blue;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: greenyellow;
+    font-size: 30px;
+}
+.design:hover{
+    border-color: purple;
+    color: red;
+    background-color: aliceblue;
+}
+input{
+    font-size: 25px;
+    padding: 5px;
+    margin-right: 0;
+    border: 5px solid blueviolet;
+}
+input[type=button]:active{
+    border: 5px solid red;
+}
+input[type=button]{
+    border: 5px solid black;
+    background-color: darkgreen;
+    color:white;
+    padding: 5px;
+    margin-left: 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.remove{
+    background-color: rgb(67, 0, 100);
+    color:white;
+    padding: 3px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-color: red;
+    text-transform: capitalize;
+    float:right;
+}
+.remove:active, .remove:hover{
+    border-bottom: 2px solid black;
+}
+.task_added{
+    background-color: white;
+    border-top: 1px solid black;
+    font-size: 30px;
+    color: black;
+    font-family: sans-serif;
+    padding: 6px;
+}
+.task_added:nth-child(even){
+    background-color: indigo;
+}
